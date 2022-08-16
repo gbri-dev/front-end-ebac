@@ -18,6 +18,11 @@ header {
   color: white;
 }
 
+header p {
+  color: #555555;
+  text-decoration: none;
+}
+
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
@@ -110,6 +115,8 @@ form {
 form div {
   padding-top: 13px;
 }
+/* Página sobre */
+    
 
 /* Clear floats after the columns*/
 section::after {
