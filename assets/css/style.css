@@ -19,8 +19,12 @@ header {
 }
 
 header p {
-  color: #555555;
+  color: #4682B4;
   text-decoration: none;
+}
+
+header p :hover {
+      text-decoration-line: underline;
 }
 
 /* Create two columns/boxes that floats next to each other */
@@ -102,7 +106,7 @@ input {
   padding: 1rem;
 }
 
-article {
+main {
   float: left;
   padding: 20px;
   width: 70%;
