@@ -136,3 +136,18 @@ footer small {
     font-size: 80%;
     display: block;
 }
+
+/*Esconde Forms cognito.*/
+.cog-branding .cog-branding--minimal {
+    visibility: hidden !important;
+    display: none I !important;
+}
+
+span .cog-branding__powered {
+    visibility: hidden !important;
+    display: none I !important;
+}
+
+.EYFnmL_dUEmnSLdh2ep9xw {
+    visibility: hidden !important;
+}
