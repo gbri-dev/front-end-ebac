@@ -4,7 +4,7 @@ html {
 
 body {
     background-color: #f5f5f5;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -138,16 +138,12 @@ footer small {
 }
 
 /*Esconde Forms cognito.*/
-.cog-branding .cog-branding--minimal {
-    visibility: hidden !important;
-    display: none I !important;
+.cognito {
+    height: 380px;
+    overflow: hidden;
 }
 
-span .cog-branding__powered {
-    visibility: hidden !important;
-    display: none I !important;
-}
-
-.EYFnmL_dUEmnSLdh2ep9xw {
-    visibility: hidden !important;
+#tenho-interesse {
+    background-color: rgb(186, 209, 217);
+    width: 100%;
 }
