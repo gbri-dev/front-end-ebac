@@ -55,6 +55,7 @@ ol {
 ol li {
     font-size: 1.4rem;
     color: #454545;
+    margin-bottom: 5px;
 }
 
 .main-container {
@@ -144,6 +145,6 @@ footer small {
 }
 
 #tenho-interesse {
-    background-color: rgb(186, 209, 217);
+    background-color: rgb(148, 150, 152);
     width: 100%;
 }
