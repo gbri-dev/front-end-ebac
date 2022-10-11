@@ -24,7 +24,7 @@ header p {
 }
 
 header p :hover {
-      text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
 /* Create two columns/boxes that floats next to each other */
@@ -112,6 +112,7 @@ main {
   width: 70%;
   background-color: #f1f1f1;
 }
+
 form {
   padding: 20px;
 }
@@ -119,8 +120,9 @@ form {
 form div {
   padding-top: 13px;
 }
+
 /* Página sobre */
-    
+
 
 /* Clear floats after the columns*/
 section::after {
@@ -132,13 +134,15 @@ section::after {
 
 /* Style the footer*/
 footer {
+  display: flex;
+  flex-direction: column;
   background-color: #777;
   padding: 10px;
   text-align: center;
   color: white;
-  /*position: sticky;
+  position: sticky;
   bottom: 0;
-  width: 100%;*/
+  width: 100%;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of

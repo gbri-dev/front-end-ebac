@@ -4,7 +4,35 @@ body {
     background: url('../../img/images.png') center top repeat #000000;
 }
 
-header, footer {
-   background-color: #034589
+header,
+footer {
+    background-color: #034589
 }
 
+nav {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+
+    nav,
+    article,
+    section {
+        width: 100%;
+        height: auto;
+    }
+
+    section {
+        margin-bottom: 15px;
+    }
+}
+
+img {
+    border-radius: 35px;
+}
+
+h1 {
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 14px;
+}
