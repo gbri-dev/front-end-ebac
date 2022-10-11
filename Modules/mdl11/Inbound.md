@@ -33,3 +33,8 @@
     - Post para redes sociais: terá texto + foto + url curta
     - Incluir hospedagem (servidor web)
     - Git - histórico de evolução
+
+
+-- ferramentas -- 
+Litmus PutsMail
+https://putsmail.com/
