@@ -38,3 +38,16 @@
 -- ferramentas -- 
 Litmus PutsMail
 https://putsmail.com/
+
+-- Git Hub --
+Gerar chave ssh e cadastra no seu perfil de usuário.
+github.com/settings/ssh/new
+
+no terminal do vscode ou gitbash use o comando:
+ssh-keygen
+
+Ficara salvo hem:
+Chave public key 
+C:\Users\user/.ssh/id rsa.pub
+
+Copie a chave dentro do arquivo e cole o codigo no git github.com/settings/ssh/new
