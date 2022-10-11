@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -16,7 +22,12 @@ header {
     border-bottom: 1px solid #254159;
 }
 
+.logo {
+    width: 300px;
+}
+
 h1 {
+    line-height: 3.4rem;
     font-size: 2.4rem;
     color: #254159;
     margin-bottom: 18px;
@@ -31,11 +42,12 @@ h2 {
 h3 {
     font-size: 1.8rem;
     color: #254159;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-top: 30px;
 }
 
 h4 {
+    line-height: 2.4rem;
     font-size: 1.6rem;
     color: #254159;
     margin-bottom: 10px;
@@ -49,13 +61,14 @@ p {
 }
 
 ol {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 ol li {
+    line-height: 2rem;
     font-size: 1.4rem;
     color: #454545;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .main-container {
@@ -72,10 +85,10 @@ ol li {
     margin: 0 auto;
 }
 
-@media (max-width: 920px) {
-    article img {
-        width: 100%;
-    }
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 
@@ -131,20 +144,37 @@ footer {
 footer p {
     color: #ffffff;
     font-size: 1.4rem;
+
 }
 
 footer small {
     font-size: 80%;
     display: block;
+    margin-top: 10px;
 }
 
 /*Esconde Forms cognito.*/
 .cognito {
-    height: 380px;
+    height: 410px;
     overflow: hidden;
 }
 
 #tenho-interesse {
     background-color: rgb(148, 150, 152);
     width: 100%;
+}
+
+@media(max-width: 425px) {
+
+    section nav,
+    section article {
+        width: 100%;
+    }
+}
+
+@media (max-width: 740px) {
+    .cognito {
+        height: 450px;
+        min-width: 280px;
+    }
 }
