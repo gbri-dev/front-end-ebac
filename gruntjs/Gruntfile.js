@@ -1,6 +1,16 @@
 module.exports = function(grunt){
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        sass: {                              
+            dist: {                            
+              options: {                       
+                style: 'expanded'
+              },
+              files: {                         
+                'dev/styles/main.css': 'src/styles/main.scss'
+              }
+            }
+          },
         less: {
             development: {
                 files: {
@@ -81,7 +91,7 @@ module.exports = function(grunt){
         },
         clean: ['prebuild']
     })
-
+    grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-less')
     grunt.loadNpmTasks('grunt-contrib-watch')
     grunt.loadNpmTasks('grunt-replace')
