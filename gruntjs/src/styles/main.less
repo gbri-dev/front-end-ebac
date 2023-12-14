@@ -1,0 +1,47 @@
+@fontPrincipal: 'Roboto', sans-serif;
+@corDeFundo: #3b6aeb;
+@corDoTexto: #fff;
+
+body {
+    background-color: @corDeFundo;
+    color: @corDoTexto;
+    font-family: @fontPrincipal;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;    
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+.button-container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+
+    button {
+        font-family: sans-serif;
+        border: 0;
+        padding: 8px;
+        color: #aaa;
+        background: #efefef;
+        &:hover{
+            color: black;
+        }
+    }
+}
+
+.cronometro {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(202, 202, 202);
+    margin-bottom: 8px;
+}
+
+footer {
+    font-size: 1rem;
+    color: rgba(202, 202, 202, 0.5);
+}
